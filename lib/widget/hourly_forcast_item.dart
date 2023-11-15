@@ -7,9 +7,9 @@ class HourlyForCastItem extends StatelessWidget {
 
   const HourlyForCastItem({
     super.key,
-    this.time,
-    this.temperature,
-    this.icon,
+    required this.time,
+    required this.temperature,
+    required this.icon,
   });
 
   @override
